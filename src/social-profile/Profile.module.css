@@ -1,0 +1,44 @@
+.profileCard {
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.description {
+  padding: 20px 0 10px;
+}
+
+.avatar {
+  max-width: 100px;
+  width: 100%;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.stats {
+  list-style: none;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  align-content: center;
+  padding-inline-start: 0;
+}
+
+.statsItem {
+  display: flex;
+  flex-direction: column;
+  padding: 15px 5px;
+  text-align: center;
+  align-items: center;
+  border-top: 1px solid rgb(167, 196, 219);
+}
+
+.statsItem:last-child {
+  border-left: 1px solid rgb(167, 196, 219);
+}
+
+.statsItem:first-child {
+  border-right: 1px solid rgb(167, 196, 219);
+}

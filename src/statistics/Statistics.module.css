@@ -1,0 +1,22 @@
+.statistics {
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.statList {
+  list-style: none;
+  padding-inline-start: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.statListItem {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.title {
+  text-align: center;
+}
