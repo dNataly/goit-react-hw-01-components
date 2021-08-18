@@ -17,7 +17,13 @@ function App() {
       <h2>FriendList</h2>
       <FriendList friends={friends} />
       <h2>Profile</h2>
-      <Profile user={user} />
+      <Profile
+        name={user.name}
+        tag={user.tag}
+        location={user.location}
+        avatar={user.avatar}
+        stats={user.stats}
+      />
       <h2>Statistics</h2>
       <Statistics title="Upload stats" stats={statisticalData} />
       <h2>TransactionHistory</h2>
@@ -25,5 +31,7 @@ function App() {
     </div>
   );
 }
+
+console.log();
 
 export default App;

@@ -1,0 +1,17 @@
+.online,
+.offline {
+  display: block;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  text-align: center;
+  margin: 5px auto;
+}
+
+.online {
+  background-color: green;
+}
+
+.offline {
+  background-color: red;
+}
